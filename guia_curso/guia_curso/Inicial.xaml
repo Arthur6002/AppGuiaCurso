@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="guia_curso.Inicial"
-             BackgroundColor="#F3f2F0"
+             BackgroundColor="#808080"
              Title="App Guia do Curso de DS">
     <ContentPage.Content>
 

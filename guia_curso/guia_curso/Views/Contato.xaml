@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="guia_curso.Views.Contato"
-             BackgroundColor="#F3F2F0"
+             BackgroundColor="#808080"
              Title="Contato">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" Padding="10">

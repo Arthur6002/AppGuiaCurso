@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="guia_curso.Views.VerCoMponente"
-             BackgroundColor="#F3F2F0"
+             BackgroundColor="#808080"
              Title="Detalhes do Componente">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand">
