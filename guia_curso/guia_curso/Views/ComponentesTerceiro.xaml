@@ -5,7 +5,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             BackgroundColor="#808080"
+             BackgroundColor="#333030"
              Title="Disciplinas do Terceiro Módulo"
              x:Class="guia_curso.Views.ComponentesTerceiro">
     <ContentPage.Content>

@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="guia_curso.Inicial"
-             BackgroundColor="#808080"
+             BackgroundColor="#333030"
              Title="App Guia do Curso de DS">
     <ContentPage.Content>
 
@@ -22,7 +22,7 @@
                        Style="{StaticResource textoCentralizado}"/>
 
                 <Label Text="Em breve este app estará disponível na Play Store para download"
-                       TextColor="#AB0209"
+                       TextColor="#F53232"
                        Style="{StaticResource textoCentralizado}"/>
 
                 <Image Source="foto_segundo_modulo_2_sem_2019"/>

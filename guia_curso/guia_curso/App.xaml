@@ -10,19 +10,21 @@
         <ResourceDictionary>
 
             <Style x:Key="botaoVermelho" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="#AB0209"/>
+                <Setter Property="BackgroundColor" Value="#F53232"/>
                 <Setter Property="TextColor" Value="#FFF"/>
                 <Setter Property="CornerRadius" Value="5"/>
             </Style>
 
             <Style x:Key="botaoCinza" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="Black"/>
+                <Setter Property="BackgroundColor" Value="#424242"/>
                 <Setter Property="TextColor" Value="#FFFFFF"/>
                 <Setter Property="CornerRadius" Value="5"/>
+                <Setter Property="BorderColor" Value="White"/>
             </Style>
 
             <Style x:Key="textoCentralizado" TargetType="Label">
                 <Setter Property="HorizontalTextAlignment"  Value="Center"/>
+                <Setter Property="TextColor" Value="White"/>
             </Style>
         </ResourceDictionary>
     </Application.Resources>

@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="guia_curso.Views.ComponenetesSegundo"
-             BackgroundColor="#808080"
+             BackgroundColor="#333030"
              Title="Disciplinas do Segundo Módulo">
     <ContentPage.Content>
         <ScrollView>

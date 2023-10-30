@@ -5,26 +5,34 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="guia_curso.Views.VerCoMponente"
-             BackgroundColor="#808080"
+             BackgroundColor="#333030"
              Title="Detalhes do Componente">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand">
             <ScrollView>
                 <StackLayout Padding="20">
                     <Label Text="{Binding Nome}" HorizontalTextAlignment="Center" FontAttributes="Bold"
-                       Margin="0, 0, 0, 30" TextColor="#AB0209" FontSize="Title"/>
+                       Margin="0, 0, 0, 30" TextColor="#F53232" FontSize="Title"/>
 
-                    <Label Text="Atribuições e Responsabilidades" HorizontalTextAlignment="Center"
-                       TextColor="#F3F2F0" BackgroundColor="#3E474C" FontSize="Large"/>
+                    <Frame BackgroundColor="#424242">
+                        <StackLayout >
+                            <Label Text="Atribuições e Responsabilidades" HorizontalTextAlignment="Center"
+                                TextColor="#F3F2F0" BackgroundColor="#333030" FontSize="Large" />
 
-                    <Label Text="{Binding AtribuicoesResponsabilidades}"
-                       Margin="0, 0, 0, 30" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="{Binding AtribuicoesResponsabilidades}"
+                                Margin="0, 0, 0, 30" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                        </StackLayout>
+                    </Frame>
 
-                    <Label Text="Valores e Atitudes" HorizontalTextAlignment="Center"
-                       BackgroundColor="#3E474C" TextColor="#F3F2F0" FontSize="Large"/>
+                    <Frame BackgroundColor="#424242">
+                        <StackLayout>
+                            <Label Text="Valores e Atitudes" HorizontalTextAlignment="Center"
+                                BackgroundColor="#333030" TextColor="#F3F2F0" FontSize="Large"/>
 
-                    <Label Text="{Binding ValoresAtitudes}"
-                       FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="{Binding ValoresAtitudes}"
+                                FontSize="Medium" HorizontalTextAlignment="Center"/>
+                        </StackLayout>
+                    </Frame>
 
                 </StackLayout>
             </ScrollView>
